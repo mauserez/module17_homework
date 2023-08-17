@@ -1,7 +1,9 @@
 import utils from "./utils";
-//import { sum } from "./sum";
 
 describe(`
+	Тестирование математических функций
+	Задание 17.5.1
+
 	addition,
 	subtraction,
 	multiplication,
