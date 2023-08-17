@@ -16,12 +16,8 @@ describe(`
 			-4, 3, -2, -1,
 		]);
 
-		expect(trainerFunctions.reverseAndNegate([NaN, null])).toStrictEqual([
-			0, 0,
-		]);
-
-		expect(trainerFunctions.reverseAndNegate([null, undefined])).toStrictEqual([
-			0, 0,
-		]);
+		expect(
+			trainerFunctions.reverseAndNegate([NaN, null, undefined])
+		).toStrictEqual([0, 0, 0]);
 	});
 });
